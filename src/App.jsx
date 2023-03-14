@@ -1,20 +1,27 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-//import './App.css'
-import Start from './components/start/Start'
-import style from './App.module.css'
+import { BrowserRouter } from "react-router-dom"
 
-function App() {
+import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components'
+
+const App = () =>{
 
   return (
-    <div className={style.App}>
-      <p>Portafolio</p>
-      <p>Header</p>
-      <Start />
-      <p>tech</p>
-      <p>projects</p>
-      <p>Footer</p>
-    </div>
+    <BrowserRouter>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar /> 
+          <Hero />
+        </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedbacks />
+        <div className="realtive z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
+      </div>
+    </BrowserRouter>
   )
 }
 
