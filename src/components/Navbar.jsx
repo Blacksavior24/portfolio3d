@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import {styles } from '../styles'
 import {navLinks} from '../constants'
-import { logo, menu, close} from '../assets'
+import { logo, menu, close, evq} from '../assets'
 
 const Navbar = () => {
 
@@ -23,7 +23,7 @@ const Navbar = () => {
             windows.scrollTo(0,0)
           }}
         >
-          <img src={logo} alt= 'logo'  className='w-9 h-9 object-contain'/>
+          <img src={evq} alt= 'logo'  className='w-9 h-9 object-contain'/>
           <p className='text-white text-[18px] font-bold cursor-pointer'>
             Emerson Edward &nbsp;
             <span className='sm:block hidden'> | Full Stack Developer 
