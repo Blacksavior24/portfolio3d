@@ -16,16 +16,16 @@ const Hero = () => {
   
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm <span className='text-[#915eff]'>Emerson</span></h1>
+              Hola!, Soy <span className='text-[#915eff]'>Emerson</span></h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I develop<br className='sm:block hidden' />
-              web applications, API's and mobile apps  
+              Desarrollo<br className='sm:block hidden' />
+              aplicaciones de escritorio, web y android  
             </p>
           </div>
         </div>
         <ComputersCanvas />
         <div className='absolute xs:bottoms-10 bottom-32 w-full flex justify-center items-center'>
-          <a href="#about">
+          <a href="#acerca">
             <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
               <motion.div
                 animate={{

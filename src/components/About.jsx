@@ -39,20 +39,21 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introducción</p>
+        <h2 className={styles.sectionHeadText}>Descripción general</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Soy desarrollador de software con experiencia en Python, JavaScript,
+        Typescript y Java, y experiencia en frameworks como React, React-Native,
+        Nodejs, Flask, Django, Java.lang y Spring. Aprendo rápido y tengo una
+        fuerte disposición para trabajar de manera colaborativa con el fin
+        de desarrollar soluciones prácticas, escalables y amigables que aborden
+        problemas del mundo real. ¡Trabajemos juntos para hacer realidad tus ideas!
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex justify-center flex-wrap gap-10'>
           {services.map((service, index)=>(
             <ServiceCard
             key={service.title}
@@ -66,4 +67,4 @@ const About = () => {
   )
 }
 
-export default SectionWrapper(About, "about")
+export default SectionWrapper(About, "acerca")
