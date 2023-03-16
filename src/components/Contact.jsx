@@ -66,10 +66,10 @@ const Contact = () => {
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>
-          Get in touch
+          Ponte en contacto
         </p>
         <h3 className={styles.sectionHeadText}>
-          Contact.
+          Contacto.
         </h3>
         <form
           ref={formRef}
@@ -78,33 +78,33 @@ const Contact = () => {
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>
-              Your Name
+              Tu nombre
             </span>
             <input 
               type="text"
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your name"
+              placeholder="Cuál es tu nombre?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>
-              Your Email
+              Tu Correo
             </span>
             <input 
               type="email"
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your email?"
+              placeholder="Cuál es tu correo?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>
-              Your Message
+              Tu Mensaje
             </span>
             <textarea
               rows="7"
@@ -112,7 +112,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder="Qué quieres decirme?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
             />
           </label>
@@ -120,7 +120,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
           >
-            {loading ? 'Sending...': 'Send'}
+            {loading ? 'Enviando...': 'Enviar'}
           </button>
         </form>
       </motion.div>

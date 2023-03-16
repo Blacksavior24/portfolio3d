@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    siprap
   } from "../assets";
   
   export const navLinks = [
@@ -32,11 +33,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experiencia",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contacto",
     },
   ];
   
@@ -112,16 +113,29 @@ import {
   
   const experiences = [
     {
+      title: "Full Stack Web Developer",
+      company_name: "Escuela profesional de Arte – Universidad Nacional del Altiplano",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "Noviembre 2021- Febrero 2022",
+      points: [
+        "Diseñar y desarrollar sistemas para beneficio",
+        "Cotización, compra y mantenimiento de un hosting y dominio",
+        "Implementar diseño responsivo y proponer nuevas ideas al desarrollo",
+        "Participar en reuniones semanales para los diferentes software's",
+      ],
+    },
+    {
       title: "Desarrollador de software",
       company_name: "Grupo Sistemas",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Abril 2022- Agosto 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Desarrollar sistemas y herramientas con énfasis en el rendimiento y la escalabilidad.",
+        "Mantener bases de datos, análisis de requerimientos.",
+        "Implementar diseño responsivo y garantizar la compatibilidad.",
+        "Participar en reuniones diarias y proporcionar comentarios sobre el proyecto",
       ],
     },
   ];
@@ -157,66 +171,66 @@ import {
     {
       name: "StarCards",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Plataforma web, juego de cartas del videojuego Starcraft en el cuál puedes competir contra otras personas y hablar con ellas, hacer amigos, etc.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Express",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Postgressql",
           color: "pink-text-gradient",
         },
         
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: 'https://camo.githubusercontent.com/a7644c5e4590aadcd243395857e80c270c2f4acd0b5110954c5293a93d553ebc/68747470733a2f2f692e6962622e636f2f53664b684d67322f53696e2d742d74756c6f2d312d4d6573612d64652d74726162616a6f2d312e706e67',
+      source_code_link: "https://github.com/Blacksavior24/starcards",
     },
     {
-      name: "Job IT",
+      name: "Pokemon API",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Aplicación web, del backend consumiendo la api y de ahí el frontend consume la nueva api para filtrarlos por tipo, stats, nombre; puedes crear tu propio pokemon",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Express",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Postgressql",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: 'https://raw.githubusercontent.com/Blacksavior24/PI-POKEMON/main/pokemon.png',
+      source_code_link: "https://github.com/Blacksavior24/PI-POKEMON",
     },
     {
-      name: "Trip Guide",
+      name: "Siprap",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Sistema de Practicas Preprofesionales de la escuela de arte de la UNAP",
       tags: [
         {
-          name: "nextjs",
+          name: "Express",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Ejs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Docker",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: siprap,
+      source_code_link: "https://github.com/Blacksavior24/siprap",
     },
   ];
   

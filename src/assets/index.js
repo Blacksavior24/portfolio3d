@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import evq from "./eevq.png";
+import siprap from "./siprap.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -60,5 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  evq
+  evq,
+  siprap
 };
